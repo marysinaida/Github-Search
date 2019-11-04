@@ -1,11 +1,11 @@
 <div *ngIf="user">
-   <div class="panel panel-default">
-       <div class="panel-heading">
-           {{user.name}}<small>({{user.login}})</small>
-           {{profile.company}}
-
-       </div>
-   </div>
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            {{user.name}}<small>({{user.login}})</small>
+            {{profile.location}}
+        </div>
+        <div class="panel-body"></div>
+    </div>
 
 
 </div>
@@ -31,4 +31,4 @@
         <input type="text" name="search" [(ngModel)]='usersname'>
     </div>
     {{user}}
- </form>
+</form>
