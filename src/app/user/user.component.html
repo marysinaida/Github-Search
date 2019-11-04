@@ -6,7 +6,9 @@
         </div>
         <div class="panel-body">
             <div class = "row">
-                <div class="col-md-3"></div>
+                <div class="col-md-3">
+                  <img src="{{user.avartar_url}}" class = "img-cicle img-responsive" alt="user Image"> 
+                </div>
 
             </div>
         </div>
@@ -30,10 +32,3 @@
 
 
 
-<form>
-    <div class="form-group">
-        <label>SEARCH BY: </label>
-        <input type="text" name="search" [(ngModel)]='usersname'>
-    </div>
-    {{user}}
-</form>
