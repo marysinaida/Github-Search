@@ -19,10 +19,17 @@ export class UserService {
     this.username = "marysinaida";
     this.clientid + "&client_secret"
   }
-  getUserInfo() {
+  getUserInfo() {2
     return this.http.get( "https://api.github.com/users/" + this.username +"?client_id=" + this.clientid +"&client_secret=" + this.clientsecret);
   } 
+  getUserRepos(){
+    return this.http.get( "https://api.github.com/users/" + this.username +"/repos?client_id=" + this.clientid +"&client_secret=" + this.clientsecret);
+
+  }
+  updateUser(username:string){
+    this.username = username;
+
+  }
 }    
-      headers: new HttpHeaders({ authorization: 'token' + environment.apiKey })
-    
+     
   
