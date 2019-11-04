@@ -6,3 +6,16 @@ footer {
     padding: 1rem;
     text-align: center;
 }
+#icon{
+    color:rgb(225,48,108);
+   }
+   #tube{
+       color: red;
+   }
+   #hub{
+       color:black;
+   }
+   #twitt{
+       color: blue;
+   }
+   
