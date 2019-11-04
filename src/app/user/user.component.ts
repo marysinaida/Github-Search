@@ -10,8 +10,8 @@ export class UserComponent implements OnInit {
   user: any;
   username: string ='marysinaida'
 
-  constructor(private userServise:UserService) {
-    this.userServise.getUserInfo().subscribe(user =>{
+  constructor(private userService:UserService) {
+    this.userService.getUserInfo().subscribe(user =>{
       console.log(user)
       
     });
