@@ -10,6 +10,7 @@ import { HubComponent } from './hub/hub.component';
 import {UserService} from './user.service';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
+import { FooterComponent } from './footer/footer.component';
 
 
 @NgModule({
@@ -18,6 +19,7 @@ import {FormsModule} from '@angular/forms';
     UserComponent,
     RepoComponent,
     HubComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
