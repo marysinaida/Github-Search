@@ -7,12 +7,15 @@ import {UserService} from '../user.service'
   styleUrls: ['./user.component.css']
 })
 export class UserComponent implements OnInit {
-  users: any;
+  user: any;
+  username: string ='marysinaida'
 
   constructor(private userServise:UserService) {
     this.userServise.getUser().subscribe(user =>{
-      console.log(user);
-      this.users = user;
+      
+      this.user = user;
+      console.log(this.user);
+      
     });
    }
 
