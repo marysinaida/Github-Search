@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
 import { HttpClient, HttpHeaders } from '@angular/common/http';
-import 'rxjs/add/operator/map';
 import { environment } from 'src/environments/environment';
 
 
@@ -20,7 +19,7 @@ export class UserService {
     this.username = "marysinaida";
   }
   getUserInfo() {
-    return this.http.get( "https://api.github.com/users/", + this.username +"?client_id=" ({
+    return this.http.get( "https://api.github.com/users/" + this.username +"?client_id=" + this.clientid +"$client_secret=" + this.clientsecret);    
       headers: new HttpHeaders({ authorization: 'token' + environment.apiKey })
-    }))
+    
   
