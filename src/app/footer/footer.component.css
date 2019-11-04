@@ -18,4 +18,12 @@ footer {
    #twitt{
        color: blue;
    }
+   .myicons2 {
+    position: absolute;
+    left: 40%;
+}
+
+.myicons2 a i{
+    margin-right: 10px;
+}
    
