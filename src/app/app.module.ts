@@ -7,9 +7,9 @@ import { UserComponent } from './user/user.component';
 import { RepoComponent } from './repo/repo.component';
 import { HubComponent } from './hub/hub.component';
 
-import {UserService} from './user.service'
+import {UserService} from './user.service';
 import { HttpClientModule } from '@angular/common/http';
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
