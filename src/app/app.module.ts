@@ -11,6 +11,7 @@ import {UserService} from './user.service';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+import { TimePipe } from './time.pipe';
 // import { HighlightDirective } from './highlight.directive';
 
 
@@ -21,6 +22,7 @@ import { FooterComponent } from './footer/footer.component';
     RepoComponent,
     HubComponent,
     FooterComponent,
+    TimePipe,
     // HighlightDirective,
   ],
   imports: [

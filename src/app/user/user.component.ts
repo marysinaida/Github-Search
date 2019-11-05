@@ -29,6 +29,16 @@ export class UserComponent implements OnInit {
 
    
   ngOnInit() {
+    this.userService.updateUser('marysinaida');
+    this.userService.getUserInfo().subscribe(user =>this.user = user);
+    this.userService.getUserRepos().subscribe(repos =>this.repos = repos);
+      
+      
+
+      
+      
+      
+
   }
 
 }
