@@ -1,10 +1,9 @@
 footer {
-    position: absolute;
     right: 0;
     bottom: 0;
     left: 0;
-    padding: 1rem;
     text-align: center;
+    padding-top: 300px;
 }
 #icon{
     color:rgb(225,48,108);

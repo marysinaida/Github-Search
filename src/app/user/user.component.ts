@@ -8,7 +8,7 @@ import {UserService} from '../user.service';
 })
 export class UserComponent implements OnInit {
   user: any;
-  username: string ='marysinaida'
+  username: string;
   repos:any;
 
   constructor(private userService:UserService) {

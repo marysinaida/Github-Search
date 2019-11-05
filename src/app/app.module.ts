@@ -11,6 +11,7 @@ import {UserService} from './user.service';
 import { HttpClientModule } from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import { FooterComponent } from './footer/footer.component';
+// import { HighlightDirective } from './highlight.directive';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { FooterComponent } from './footer/footer.component';
     RepoComponent,
     HubComponent,
     FooterComponent,
+    // HighlightDirective,
   ],
   imports: [
     BrowserModule,
