@@ -30,6 +30,7 @@ import { TimePipe } from './time.pipe';
     AppRoutingModule,
     HttpClientModule,
     FormsModule
+
   ],
   providers: [UserService],
   bootstrap: [AppComponent]

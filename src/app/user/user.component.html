@@ -46,19 +46,20 @@
             </div>
     </div>
                     <div class="container">
-                        <div class="card">
+                        
                             
                             <h3 class="card-title">Repositories</h3>
                             <div class="card " *ngFor="let repo of repos">
-                                    <div class="card-body">
+                                    <div class="card-body ">
                                 <p><b > {{repo.name}}</b></p>     
                                  <p> {{repo.description}}</p>
                                  <a href="{{repo.html_url}}" target="_blank" class="btn btn-sm btn-secondary "><br> view this project on Github</a>
+                                 <p>Created: {{repo.created_at | dateAgo}}</p>
 
                             
                         </div>
                         </div>
-                    </div>
+                    
                     
                     </div>
                     
